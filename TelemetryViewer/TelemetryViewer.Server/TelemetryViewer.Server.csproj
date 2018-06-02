@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,6 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Helpers\Enums\ClassicDrivers.cs" />
+    <Compile Include="Helpers\Enums\ClassicTeams.cs" />
+    <Compile Include="Helpers\Enums\Eras.cs" />
+    <Compile Include="Helpers\Enums\Flags.cs" />
+    <Compile Include="Helpers\Enums\FuelMixes.cs" />
+    <Compile Include="Helpers\Enums\ModernDrivers.cs" />
+    <Compile Include="Helpers\Enums\ModernTeams.cs" />
+    <Compile Include="Helpers\Enums\PitStates.cs" />
+    <Compile Include="Helpers\Enums\Sectors.cs" />
+    <Compile Include="Helpers\Enums\SessionTypes.cs" />
+    <Compile Include="Helpers\Enums\Tracks.cs" />
+    <Compile Include="Helpers\Enums\TractionControlSettings.cs" />
+    <Compile Include="Helpers\UdpListener.cs" />
     <Compile Include="Models\UdpModels.cs" />
     <Compile Include="TelemetryViewerServer.cs">
       <SubType>Component</SubType>
