@@ -5,6 +5,15 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryViewer.Server", "TelemetryViewer.Server\TelemetryViewer.Server.csproj", "{81127050-C249-4A5D-99AA-C7FC37D71CCE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{CD7F2816-4D6D-4720-ACAB-5F2F74741AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Throttle and Brake", "Throttle and Brake", "{34E51C75-A4EA-4D2B-B18A-E8461DBE0ED3}"
+	ProjectSection(SolutionItems) = preProject
+		Demos\Throttle and Brake\Hub.html = Demos\Throttle and Brake\Hub.html
+		Demos\Throttle and Brake\jQuery-signalR.js = Demos\Throttle and Brake\jQuery-signalR.js
+		Demos\Throttle and Brake\jQuery.js = Demos\Throttle and Brake\jQuery.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +27,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34E51C75-A4EA-4D2B-B18A-E8461DBE0ED3} = {CD7F2816-4D6D-4720-ACAB-5F2F74741AE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CA7BAC6-EDDA-47D2-8F41-9D930CB96AAF}
